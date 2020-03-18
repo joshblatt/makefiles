@@ -5,10 +5,6 @@
 //  Created by Josh Blatt on 2020-03-17.
 //  Copyright © 2020 Josh Blatt. All rights reserved.
 //
-
-#ifndef Animal_hpp
-#define Animal_hpp
-
 #include <stdio.h>
 #include <string>
 
@@ -24,5 +20,3 @@ public:
     int getAge();
     void setAge(int newAge);
 };
-
-#endif /* Animal_hpp */

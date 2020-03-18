@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++0x -Wall -pedantic-errors -g
 
 SRCS =  main.cpp Animal.cpp
 OBJS = ${SRCS:.cpp=.o}
-HEADERS = Animal.hpp
+HEADERS = Animal.h
 
 MAIN = myprog
 
