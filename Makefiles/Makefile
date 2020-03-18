@@ -5,10 +5,10 @@ SRCS =  main.cpp Animal.cpp
 OBJS = ${SRCS:.cpp=.o}
 HEADERS = Animal.h
 
-MAIN = myprog
+MAIN = farm
 
 all: ${MAIN}
-	@echo   Simple compilter named myprog has been compiled
+	@echo   Program successfully compiled
 
 ${MAIN}: ${OBJS}
 	${CXX} ${CXXFLAGS} ${OBJS} -o ${MAIN}

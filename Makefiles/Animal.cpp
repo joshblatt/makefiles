@@ -6,12 +6,14 @@
 //  Copyright © 2020 Josh Blatt. All rights reserved.
 //
 
-#include "Animal.hpp"
+#include "Animal.h"
 
 Animal::Animal()
 {
     name = "Default";
     age = 0;
+    weight = 0;
+    height = 0;
 }
 std::string Animal::getName()
 {
@@ -28,4 +30,21 @@ int Animal::getAge()
 void Animal::setAge(int newAge)
 {
     age = newAge;
+}
+int Animal::getHeight()
+{
+    return height;
+}
+void Animal::setHeight(int newHeight)
+{
+    height = newHeight;
+}
+
+int Animal::getWeight()
+{
+    return weight;
+}
+void Animal::setWeight(int newWeight)
+{
+    weight = newWeight;
 }

@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "Animal.hpp"
+#include "Animal.h"
 
 int main(int argc, const char * argv[])
 {
@@ -15,9 +15,13 @@ int main(int argc, const char * argv[])
     Animal jimmy;
     jimmy.setName("Jimmy");
     jimmy.setAge(50);
+    jimmy.setWeight(500);
+    jimmy.setHeight(100);
     
     std::cout << "Name " << jimmy.getName() << "\n";
     std::cout << "Age " << jimmy.getAge() << "\n";
+    std::cout << "Weight " << jimmy.getWeight() << "\n";
+    std::cout << "Height " << jimmy.getHeight() << "\n";
     
     return 0;
 }

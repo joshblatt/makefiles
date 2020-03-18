@@ -13,10 +13,16 @@ class Animal
 private:
     std::string name;
     int age;
+    int height;
+    int weight;
 public:
     Animal();
     std::string getName();
     void setName(std::string newName);
     int getAge();
     void setAge(int newAge);
+    int getHeight();
+    void setHeight(int newHeight);
+    int getWeight();
+    void setWeight(int newWeight);
 };
