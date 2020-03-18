@@ -7,6 +7,7 @@
 //
 #include <stdio.h>
 #include <string>
+#pragma once
 
 class Animal
 {
@@ -25,4 +26,5 @@ public:
     void setHeight(int newHeight);
     int getWeight();
     void setWeight(int newWeight);
+    friend class Dog;
 };

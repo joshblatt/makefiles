@@ -1,9 +1,9 @@
 CXX = g++
 CXXFLAGS = -std=c++0x -Wall -pedantic-errors -g
 
-SRCS =  main.cpp Animal.cpp
+SRCS =  main.cpp Dog.cpp Animal.cpp
 OBJS = ${SRCS:.cpp=.o}
-HEADERS = Animal.h
+HEADERS = Dog.h Animal.h
 
 MAIN = farm
 
